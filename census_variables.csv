@@ -1,14 +1,14 @@
 Region,Residence Type,Family Composition,Population Base,Sex,Age,Marital Status,Student,Country of Birth,Health,Ethnic Group,Religion,Economic Activity,Occupation,Industry,Hours worked per week,Approximated Social Grade
-North East,Communal,Not in a family,Usual resident,Male,0 to 15,Single,Yes,UK,Very good,White,No religion,Employee,Managers; Directors; Senior,AFF,15 or less,AB
-North West,Non Communal,Married,Away student,Female,16 to 24,Married,No,Non UK,Good,Mixed,Christian,Self-Employed,Professional,Mining; Manufacturing; Conditioning,16 to 30,C1
-Yorkshire and the Humber,,Couple,Short-term,,35 to 44,Seperated,,N/A,Fair,Asian,Buddhist,Unemployed,Associate Professional and Technical,Construction,31 to 48,C2
-East Midlands,,Single Father,,,45 to 54,Divorced,,,Bad,Black,Hindu,Full-time student,Admin and secretarial,Retail and motor repair,49 or more,DE
-West Midlands,,Single Mother,,,55 to 64,Widowed,,,Very Bad,Chinese or Other,Jewish,Retired,Skilled trades,Service,N/A,N/A
-East of England,,Other Related,,,65 to 74,,,,N/A,N/A,Muslim,Student,Service,Transport and communication,,
-London,,N/A,,,75 and over,,,,,,Sikh,Looking after home,Sales and customer service,Finance,,
-South East,,,,,,,,,,,Other religion,Disabled,PPM operatives,Real estate; Science and Tech; Admin,,
-South West,,,,,,,,,,,Not Stated,Other,Elementary,Public Admin; Defense; Social Security,,
-Wales,,,,,,,,,,,N/A,N/A,N/A,Education,,
-,,,,,,,,,,,,Health and social work,,
-,,,,,,,,,,,,Other,,
-,,,,,,,,,,,,N/A,,
+North East,Communal,Not Applicable,Usual resident,Male,0 to 15,Single,Yes,Not Applicable,Not Applicable,White,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+North West,Non Communal,Not in a family,Away student,Female,16 to 24,Married,No,UK,Very good,Not Applicable,No religion,Employee,Managers; Directors; Senior,AFF,15 or less,AB
+Yorkshire and the Humber,,Married,Short-term,,25 to 34,Seperated,,Non UK,Good,Mixed,Christian,Self-Employed,Professional,Mining; Manufacturing; Conditioning,16 to 30,C1
+East Midlands,,Couple,,,35 to 44,Divorced,,Not Applicable,Fair,Asian,Buddhist,Unemployed,Associate Professional and Technical,Construction,31 to 48,C2
+West Midlands,,Single Father,,,45 to 54,Widowed,,,Bad,Black,Hindu,Full-time student,Admin and secretarial,Retail and motor repair,49 or more,DE
+East of England,,Single Mother,,,55 to 64,,,,Very Bad,Chinese or Other,Jewish,Retired,Skilled trades,Service,,
+London,,Other Related,,,65 to 74,,,,,,Muslim,Student,Service,Transport and communication,,
+South East,,,,,75 and over,,,,,,Sikh,Looking after home,Sales and customer service,Finance,,
+South West,,,,,,,,,,,Other religion,Disabled,PPM operatives,Real estate; Science and Tech; Admin,,
+Wales,,,,,,,,,,,Not Stated,Other,Elementary,Public Admin; Defense; Social Security,,
+,,,,,,,,,,,,,,Education,,
+,,,,,,,,,,,,,,Health and social work,,
+,,,,,,,,,,,,,,Other,,
