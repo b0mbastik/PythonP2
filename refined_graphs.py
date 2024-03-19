@@ -5,10 +5,14 @@ import numpy as np
 import json
 
 def get_sorted_arrays(refinedColumn, variableColumn):
+    if (len(refinedColumn.dropna().unique()) != len(variableColumn.dropna())):
+        raise ValueError("Provided columns for codes and their corresponding variable names are not the same length.")
+    
     codes = np.sort(list(map(str, refinedColumn.unique())))
     columnDict = dict(zip(codes, variableColumn.dropna()))
     sorted_column = json.loads(refinedColumn.value_counts().to_json())
     arr = []
+
     for k in sorted_column.keys():
         arr.append(columnDict[k])
 
@@ -37,7 +41,7 @@ def get_pie_chart(refinedColumn, variableColumn, title, legend_title, name):
     
     ax.pie(np.array([*sorted_column.values()]), labels = arr, radius = 4, autopct='%1.1f%%')
     ax.set_title(title, pad=220, fontsize=25)
-    plt.legend(title=legend_title, loc='center right', bbox_to_anchor=(5,1), fontsize='xx-large')
+    plt.legend(title=legend_title, loc='center right', bbox_to_anchor=(6,1), fontsize='xx-large')
     plt.savefig(("images/" + name), bbox_inches='tight')
 
 if __name__ == '__main__':

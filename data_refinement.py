@@ -35,3 +35,7 @@ if __name__ == '__main__': # pragma: no cover
     df = pd.read_csv('refined_census2011.csv')
     total_records = len(df)
     print("Total number of records:", total_records)
+    print (df.dtypes)
+    for i in df.columns:
+        if (i != "Person ID"):
+            print (df[i].value_counts())
