@@ -6,7 +6,7 @@ import json
 
 def get_sorted_arrays(refinedColumn, variableColumn):
     if (len(refinedColumn.dropna().unique()) != len(variableColumn.dropna())):
-        raise ValueError("Provided columns for codes and their corresponding variable names are not the same length.")
+        raise ValueError(f"Provided columns for codes and their corresponding variable names are not the same length.\nColumn 1: {len(refinedColumn.dropna().unique())}\nColumn 2: {len(variableColumn.dropna())}")
     
     codes = np.sort(list(map(str, refinedColumn.unique())))
     columnDict = dict(zip(codes, variableColumn.dropna()))
@@ -43,6 +43,21 @@ def get_pie_chart(refinedColumn, variableColumn, title, legend_title, name):
     ax.set_title(title, pad=220, fontsize=25)
     plt.legend(title=legend_title, loc='center right', bbox_to_anchor=(6,1), fontsize='xx-large')
     plt.savefig(("images/" + name), bbox_inches='tight')
+
+def get_table_bar_chart(dt, xlabel, ylabel):
+    fig, axs = plt.subplots(len(dt.columns))
+    i = 0
+    for c in dt.columns:
+        axs[i].bar(dt[c].index, dt[c].tolist(), color ='maroon', width = 0.4)
+        axs[i].set_title(c, pad = 10, fontsize = 20)
+        axs[i].set_xlabel(xlabel, fontsize=15, labelpad=5)
+        axs[i].set_ylabel(ylabel, fontsize=15, labelpad=10)
+        fig.set_figwidth(15)
+        fig.set_figheight(70)
+        fig.tight_layout(pad=5)
+        axs[i].set_xticks(axs[i].get_xticks())
+        axs[i].set_xticklabels(dt[c].index, rotation=30)
+        i += 1
 
 if __name__ == '__main__':
 
