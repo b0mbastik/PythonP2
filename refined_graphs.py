@@ -58,6 +58,23 @@ def get_table_bar_chart(dt, xlabel, ylabel, width, height):
         axs[i].set_xticks(axs[i].get_xticks())
         axs[i].set_xticklabels(dt[c].index, rotation=30)
         i += 1
+    return axs
+
+def get_table_3d_chart(dt, xlabel, ylabel, zlabel, width, height):
+    fig = plt.figure()
+    ax = fig.add_subplot(projection='3d')
+    i = len(dt.columns)
+    for c in dt.columns:
+        ax.bar(dt[c].index, dt[c].tolist(), i, zdir='y', alpha=0.8)
+        i -= 1
+    ax.set_yticks(ticks = np.arange(len(dt.columns)), labels=dt.columns[::-1], ha="left", rotation=-15, va="bottom", rotation_mode="anchor")
+    ax.tick_params(axis='z', which='major', pad=10)
+    fig.autofmt_xdate()
+    fig.set_figwidth(width)
+    fig.set_figheight(height)
+    ax.set_xlabel(xlabel, labelpad=110, fontsize=25)
+    ax.set_ylabel(ylabel, labelpad=110, fontsize=25)
+    ax.set_zlabel(zlabel, labelpad=20, fontsize=25)
 
 if __name__ == '__main__':
 

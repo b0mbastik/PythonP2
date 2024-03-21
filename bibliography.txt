@@ -20,3 +20,6 @@ https://stackoverflow.com/questions/25615459/how-to-delete-a-test-file-after-fin
 
 annoying list error:
 https://stackoverflow.com/questions/51451951/keyerror-in-pandas-on-selecting-multiple-columns
+
+3D bar graphs:
+https://matplotlib.org/stable/gallery/mplot3d/bars3d.html
