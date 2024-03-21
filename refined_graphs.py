@@ -44,7 +44,7 @@ def get_pie_chart(refinedColumn, variableColumn, title, legend_title, name):
     plt.legend(title=legend_title, loc='center right', bbox_to_anchor=(6,1), fontsize='xx-large')
     plt.savefig(("images/" + name), bbox_inches='tight')
 
-def get_table_bar_chart(dt, xlabel, ylabel):
+def get_table_bar_chart(dt, xlabel, ylabel, width, height):
     fig, axs = plt.subplots(len(dt.columns))
     i = 0
     for c in dt.columns:
@@ -52,8 +52,8 @@ def get_table_bar_chart(dt, xlabel, ylabel):
         axs[i].set_title(c, pad = 10, fontsize = 20)
         axs[i].set_xlabel(xlabel, fontsize=15, labelpad=5)
         axs[i].set_ylabel(ylabel, fontsize=15, labelpad=10)
-        fig.set_figwidth(15)
-        fig.set_figheight(70)
+        fig.set_figwidth(width)
+        fig.set_figheight(height)
         fig.tight_layout(pad=5)
         axs[i].set_xticks(axs[i].get_xticks())
         axs[i].set_xticklabels(dt[c].index, rotation=30)
