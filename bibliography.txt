@@ -23,3 +23,6 @@ https://stackoverflow.com/questions/51451951/keyerror-in-pandas-on-selecting-mul
 
 3D bar graphs:
 https://matplotlib.org/stable/gallery/mplot3d/bars3d.html
+
+Reverse column index:
+https://www.geeksforgeeks.org/how-to-reverse-the-column-order-of-the-pandas-dataframe/

@@ -63,7 +63,7 @@ def get_table_bar_chart(dt, xlabel, ylabel, width, height):
 def get_table_3d_chart(dt, xlabel, ylabel, zlabel, width, height):
     fig = plt.figure()
     ax = fig.add_subplot(projection='3d')
-    i = len(dt.columns)
+    i = (len(dt.columns)-1)
     for c in dt.columns:
         ax.bar(dt[c].index, dt[c].tolist(), i, zdir='y', alpha=0.8)
         i -= 1
@@ -74,7 +74,7 @@ def get_table_3d_chart(dt, xlabel, ylabel, zlabel, width, height):
     fig.set_figheight(height)
     ax.set_xlabel(xlabel, labelpad=110, fontsize=25)
     ax.set_ylabel(ylabel, labelpad=110, fontsize=25)
-    ax.set_zlabel(zlabel, labelpad=20, fontsize=25)
+    ax.set_zlabel(zlabel, labelpad=40, fontsize=25)
 
 if __name__ == '__main__':
 
