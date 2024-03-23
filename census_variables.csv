@@ -1,6 +1,6 @@
 Region,Residence Type,Family Composition,Population Base,Sex,Age,Marital Status,Student,Country of Birth,Health,Ethnic Group,Religion,Economic Activity,Occupation,Industry,Hours worked per week,Approximated Social Grade
-North East,Communal,Not Applicable,Usual resident,Male,0 to 15,Single,Yes,Not Applicable,Not Applicable,White,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
-North West,Non Communal,Not in a family,Away student,Female,16 to 24,Married,No,UK,Very good,Not Applicable,No religion,Employee,Managers; Directors; Senior,AFF,15 or less,AB
+North East,Communal,Not Applicable,Usual resident,Male,0 to 15,Single,Yes,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+North West,Non Communal,Not in a family,Away student,Female,16 to 24,Married,No,UK,Very good,White,No religion,Employee,Managers; Directors; Senior,AFF,15 or less,AB
 Yorkshire and the Humber,,Married,Short-term,,25 to 34,Seperated,,Non UK,Good,Mixed,Christian,Self-Employed,Professional,Mining; Manufacturing; Conditioning,16 to 30,C1
 East Midlands,,Couple,,,35 to 44,Divorced,,,Fair,Asian,Buddhist,Unemployed,Associate Professional and Technical,Construction,31 to 48,C2
 West Midlands,,Single Father,,,45 to 54,Widowed,,,Bad,Black,Hindu,Full-time student,Admin and secretarial,Retail and motor repair,49 or more,DE

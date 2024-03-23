@@ -33,9 +33,12 @@ if __name__ == '__main__': # pragma: no cover
     print(f"Refined dataset saved to {refined_file_path}.")
 
     df = pd.read_csv('refined_census2011.csv')
+    vf = pd.read_csv('census_variables.csv')
     total_records = len(df)
     print("Total number of records:", total_records)
     print (df.dtypes)
-    for i in df.columns:
-        if (i != "Person ID"):
-            print (df[i].value_counts())
+    for c in df.columns:
+        if (c != "Person ID"):
+            df2 = df[c].value_counts().sort_index()
+            df2.index = vf[c].dropna()
+            print (df2)

@@ -26,3 +26,6 @@ https://matplotlib.org/stable/gallery/mplot3d/bars3d.html
 
 Reverse column index:
 https://www.geeksforgeeks.org/how-to-reverse-the-column-order-of-the-pandas-dataframe/
+
+Sort value_counts():
+https://medium.com/@siglimumuni/a-complete-guide-to-the-value-counts-method-in-pandas-a8c24296be2d
