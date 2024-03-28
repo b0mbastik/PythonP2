@@ -1,11 +1,13 @@
 import pandas as pd
 import os
 
+
 def read_data(file_path):
     if os.path.exists(file_path):
         return pd.read_csv(file_path)
     else:
         raise FileNotFoundError("Error: census2011.csv not found in the correct directory.")
+
 
 def refine_dataset(df):
     df = df.drop_duplicates()
@@ -21,8 +23,10 @@ def refine_dataset(df):
 
     return df
 
+
 def save_refined_data(df, file_path):
     df.to_csv(file_path, index=False)
+
 
 if __name__ == '__main__': # pragma: no cover
     file_path = 'census2011.csv'

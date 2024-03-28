@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import json
 
+
 def get_sorted_arrays(refinedColumn, variableColumn):
     codes = np.sort(list(map(str, refinedColumn.unique())))
     columnDict = dict(zip(codes, variableColumn.dropna()))
@@ -12,7 +13,8 @@ def get_sorted_arrays(refinedColumn, variableColumn):
     for k in sorted_column.keys():
         arr.append(columnDict[k])
 
-    return (arr,sorted_column)
+    return (arr, sorted_column)
+
 
 def get_bar_chart(refinedColumn, variableColumn, x, y, title, name):
     fig, ax = plt.subplots()
@@ -29,6 +31,7 @@ def get_bar_chart(refinedColumn, variableColumn, x, y, title, name):
     ax.set_title(title, pad=25, fontsize=25)
     plt.savefig(("images/" + name), bbox_inches='tight')
 
+
 def get_pie_chart(refinedColumn, variableColumn, title, legend_title, name):
     fig, ax = plt.subplots(figsize=(4,2))
     arrTuple = get_sorted_arrays(refinedColumn, variableColumn)
@@ -40,8 +43,8 @@ def get_pie_chart(refinedColumn, variableColumn, title, legend_title, name):
     plt.legend(title=legend_title, loc='center right', bbox_to_anchor=(5,1), fontsize='xx-large')
     plt.savefig(("images/" + name), bbox_inches='tight')
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
     df = pd.read_csv('refined_census2011.csv')
     plt.style.use('_mpl-gallery')
     plt.rcParams['legend.title_fontsize'] = 'xx-large'
