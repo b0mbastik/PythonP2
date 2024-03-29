@@ -29,15 +29,15 @@ def save_refined_data(df, file_path):
 
 
 if __name__ == '__main__': # pragma: no cover
-    file_path = 'census2011.csv'
-    refined_file_path = 'refined_census2011.csv'
+    file_path = '../data/census2011.csv'
+    refined_file_path = '../data/refined_census2011.csv'
     df = read_data(file_path)
     refined_df = refine_dataset(df)
     save_refined_data(refined_df, refined_file_path)
     print(f"Refined dataset saved to {refined_file_path}.")
 
-    df = pd.read_csv('refined_census2011.csv')
-    vf = pd.read_csv('census_variables.csv')
+    df = pd.read_csv('../data/refined_census2011.csv')
+    vf = pd.read_csv('../data/census_variables.csv')
     total_records = len(df)
     print("Total number of records:", total_records)
     print (df.dtypes)
