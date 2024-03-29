@@ -1,0 +1,14 @@
+220020896 Individual Report
+
+In this project, I designed, implemented, and tested the following:
+Basic Spec:
+•	Descriptive analysis of the dataset (excluding total number of records)
+•	Plotting diagrams with matplotlib
+•	Unittesting
+•	Re-run the analysis with jupyter notebook
+•	Provide executable python script to regenerate images and save them in the images subdirectory
+Easy Requirements:
+•	Use groupby to generate tables
+•	Use pandas to perform various queries
+Medium Requirements:
+•	Build 3D graphs based on tables from the first easy requirement
