@@ -5,7 +5,7 @@ import pandas as pd
 
 
 df = dr.refine_dataset(dr.read_data('../data/census2011.csv'))
-variable_data = pd.read_csv('../variables/variables.csv')
+variable_data = pd.read_csv('../data/variables.csv')
 x_axis_descriptions = {}
 
 # Iterate over the rows of the variable data
