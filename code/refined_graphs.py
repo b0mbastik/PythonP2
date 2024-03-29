@@ -83,7 +83,7 @@ def get_table_bar_chart(dt, xlabel, ylabel, width, height):
         i += 1
 
 
-def get_table_3d_chart(dt, xlabel, ylabel, zlabel, width, height):
+def get_table_3d_chart(dt, xlabel, ylabel, zlabel, width, height, name):
     """
     Creats a 3D bar chart from a groupby table by iterating through each column
     in the table, adding the values to the 3D bar chart and then using axis
@@ -104,6 +104,7 @@ def get_table_3d_chart(dt, xlabel, ylabel, zlabel, width, height):
     ax.set_xlabel(xlabel, labelpad=110, fontsize=25)
     ax.set_ylabel(ylabel, labelpad=110, fontsize=25)
     ax.set_zlabel(zlabel, labelpad=40, fontsize=25)
+    plt.savefig((name), bbox_inches='tight')
 
 
 # Automatically generates the bar and pie charts detailed in the basic specification
