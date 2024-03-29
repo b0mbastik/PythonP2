@@ -1,0 +1,18 @@
+Person ID
+Region
+Residence Type
+Family Composition
+Population Base
+Sex
+Age
+Marital Status
+Student
+Country of Birth
+Health
+Ethnic Group
+Religion
+Economic Activity
+Occupation
+Industry
+Hours worked per week
+Approximated Social Grade

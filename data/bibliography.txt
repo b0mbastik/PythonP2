@@ -1,0 +1,37 @@
+for formatting images:
+https://stackoverflow.com/questions/50341684/savefig-do-not-correctly-save-the-displayed-plot
+https://stackoverflow.com/questions/27204646/matplotlib-pyplot-has-no-attribute-style
+https://medium.com/@akaivdo/3-methods-to-save-plots-as-images-or-pdf-files-in-matplotlib-96a922fd2ce4
+
+type of each variable:
+https://pbpython.com/pandas_dtypes.html
+
+helping to iterate through columns:
+https://stackoverflow.com/questions/23197324/pandas-value-counts-applied-to-each-column
+
+checking if two dataframes contain no differences:
+https://saturncloud.io/blog/how-to-confirm-equality-of-two-pandas-dataframes/
+
+don't cover main:
+https://stackoverflow.com/questions/65592626/how-to-test-if-name-main-to-increase-coverage
+
+removing a file in unittest:
+https://stackoverflow.com/questions/25615459/how-to-delete-a-test-file-after-finished-testing-in-python
+
+annoying list error:
+https://stackoverflow.com/questions/51451951/keyerror-in-pandas-on-selecting-multiple-columns
+
+3D bar graphs:
+https://matplotlib.org/stable/gallery/mplot3d/bars3d.html
+
+Reverse column index:
+https://www.geeksforgeeks.org/how-to-reverse-the-column-order-of-the-pandas-dataframe/
+
+Sort value_counts():
+https://medium.com/@siglimumuni/a-complete-guide-to-the-value-counts-method-in-pandas-a8c24296be2d
+
+iterating through two lists in parallel (for tests):
+https://stackoverflow.com/questions/1663807/how-do-i-iterate-through-two-lists-in-parallel
+
+checking if a column exists in a dataframe:
+https://stackoverflow.com/questions/24870306/how-to-check-if-a-column-exists-in-pandas

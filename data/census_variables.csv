@@ -1,0 +1,14 @@
+Region,Residence Type,Family Composition,Population Base,Sex,Age,Marital Status,Student,Country of Birth,Health,Ethnic Group,Religion,Economic Activity,Occupation,Industry,Hours worked per week,Approximated Social Grade
+North East,Communal,Not Applicable,Usual resident,Male,0 to 15,Single,Yes,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+North West,Non Communal,Not in a family,Away student,Female,16 to 24,Married,No,UK,Very good,White,No religion,Employee,Managers; Directors; Senior,AFF,15 or less,AB
+Yorkshire and the Humber,,Married,Short-term,,25 to 34,Seperated,,Non UK,Good,Mixed,Christian,Self-Employed,Professional,Mining; Manufacturing; Conditioning,16 to 30,C1
+East Midlands,,Couple,,,35 to 44,Divorced,,,Fair,Asian,Buddhist,Unemployed,Associate Professional and Technical,Construction,31 to 48,C2
+West Midlands,,Single Father,,,45 to 54,Widowed,,,Bad,Black,Hindu,Full-time student,Admin and secretarial,Retail and motor repair,49 or more,DE
+East of England,,Single Mother,,,55 to 64,,,,Very Bad,Chinese or Other,Jewish,Retired,Skilled trades,Service,,
+London,,Other Related,,,65 to 74,,,,,,Muslim,Student,Service,Transport and communication,,
+South East,,,,,75 and over,,,,,,Sikh,Looking after home,Sales and customer service,Finance,,
+South West,,,,,,,,,,,Other religion,Disabled,PPM operatives,Real estate; Science and Tech; Admin,,
+Wales,,,,,,,,,,,Not Stated,Other,Elementary,Public Admin; Defense; Social Security,,
+,,,,,,,,,,,,,,Education,,
+,,,,,,,,,,,,,,Health and social work,,
+,,,,,,,,,,,,,,Other,,
